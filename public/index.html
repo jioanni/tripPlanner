@@ -1,13 +1,54 @@
 <html>
 
 <head>
-    <link href='https://api.mapbox.com/mapbox-gl-js/v^0.42.1/mapbox-gl.css' rel='stylesheet' />
     <link rel="stylesheet" href="./style.css">
+    <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/v0.42.1/mapbox-gl.css'>
     <script src="bundle.js" defer></script>
 </head>
+<header>
+    <div id = "navbar">
+        <h2>TripPlanner 98!</h2>
+    </div>
+</header>
 
 <body>
-    <div id="map">
+    <div id = "maincontainer">
+        <div id="map"></div>
+            <div id = "rightbar">
+                <div id = "menu">
+                <ul>
+                    <li>
+                        <select>
+                            <option value="hotels">Hotels</option>
+                            <option value="hotels">Chez Angelfire</option>
+                            <option value="hotels">House of Trumpeting Skulls</option>
+                            <option value="hotels">98 NASCAR</option>
+                        </select>
+                    </li>
+                    <li>
+                            <select>
+                                <option value="restaurants">Restaurants</option>
+                                <option value="restaurants">Costco</option>
+                                <option value="restaurants">Roy Rogers</option>
+                                <option value="restaurants">Long John Silver</option>
+                            </select>
+                        </li>
+                        <li>
+                                <select>
+                                    <option value="thingstodo">Things to Do</option>
+                                    <option value="thingstodo">Visit the Geocity</option>
+                                    <option value="thingstodo">98 NASCAR</option>
+                                    <option value="thingstodo">Expire</option>
+                                </select>
+                            </li>
+                </ul>
+            </div>
+                <div id = "itinerary">
+                        <ul>
+                              <li></li>
+                        </ul>
+                </div>
+        </div>
     </div>
 </body>
 
